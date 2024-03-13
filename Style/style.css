@@ -162,6 +162,9 @@ body {
     }
 }
 
-
+.cards img{
+    width: 20rem;
+    height: 15rem;
+}
 
 
