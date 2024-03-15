@@ -163,8 +163,16 @@ body {
 }
 
 .cards img{
-    width: 20rem;
+    width: 19rem;
     height: 15rem;
+}
+
+.cards {
+    padding: 1rem 3rem ;
+    :hover{
+        transform: scale(1.3);
+        
+    }
 }
 
 
