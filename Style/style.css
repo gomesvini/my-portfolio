@@ -132,8 +132,10 @@ body {
 }
 
 .card-certificate {
-    border: 5px solid #7E47D6;
+    /* border: 5px solid #7E47D6; */
     background-color: #828275;
+    box-shadow: 10px 10px 10px #7E47D6 ;
+    
 }
 
 .image-certificate{
