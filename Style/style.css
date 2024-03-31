@@ -50,9 +50,10 @@ body {
 
 .profile img {
     width: 22rem;
-    border: 1px solid #F9F9F9;
+    border: 1px solid;
     border-radius: 13rem 6rem 10rem 5rem;
     cursor: pointer;
+    box-shadow: 10px 10px 10px #828275;
 }
 
 .buttons {
@@ -170,11 +171,17 @@ body {
 
 .cards img{
     width: 19rem;
-    height: 15rem;
+    box-shadow: 5px 10px 10px #7E47D6;
+    margin: 0 10px;
 }
 
 .cards {
-    padding: 1rem 3rem ;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 80%;
+    padding: 2rem 3rem;
+    display: flex;
+    overflow-x: scroll;
     :hover{
         transform: scale(1.3);
         
