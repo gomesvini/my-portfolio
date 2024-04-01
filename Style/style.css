@@ -10,11 +10,22 @@ body {
 
 .top {
     border-bottom: 1px solid #7E47D6;
+    background-color: #000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .top h2 {
     text-align: center;
     font-weight: 900;
+}
+
+.top a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #7E47D6;
 }
 
 .header {
